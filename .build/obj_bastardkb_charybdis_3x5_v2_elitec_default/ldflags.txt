@@ -1,0 +1,1 @@
+-Wl,--gc-sections -Wl,-Map=.build/bastardkb_charybdis_3x5_v2_elitec_default.map,--cref   -lm 
