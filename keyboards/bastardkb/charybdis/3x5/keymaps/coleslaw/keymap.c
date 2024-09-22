@@ -48,6 +48,8 @@ combo_t key_combos[] = {
 #define NUM_SPC LT(LAYER_NUM, KC_SPC)
 #define RAISE_BSP LT(LAYER_NAV, KC_BSPC)
 
+NEED TO ADD A QUOTE SOMEWHERE!!!
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_BASE] = LAYOUT(
   // ╭─────────────────────────────────────────────╮ ╭─────────────────────────────────────────────╮
@@ -93,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├─────────────────────────────────────────────┤ ├───────────────────────────────────────────┤
        KC_PLUS, KC_EXLM, KC_AT,   KC_HASH, KC_UNDS,    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   // ╰─────────────────────────────────────────────┤ ├─────────────────────────────────────────────╯
-                         XXXXXXX, XXXXXXX, KC_TILD,    _______, KC_LSFT, XXXXXXX
+                         KC_TILD, KC_DQUO, KC_QUOT,    XXXXXXX, KC_LSFT, XXXXXXX
   //                   ╰───────────────────────────╯ ╰──────────────────────────╯
   ),
 
